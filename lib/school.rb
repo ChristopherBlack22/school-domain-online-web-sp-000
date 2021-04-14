@@ -26,8 +26,6 @@ class School
       students.sort { |a,b| a<=>b} 
     end 
   end 
-    #binding.pry 
-  #end   
    
 end 
 
