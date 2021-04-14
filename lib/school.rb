@@ -21,6 +21,12 @@ class School
     @roster[grade]
   end 
   
+  #def sort 
+  #  @roster.collect do |grade,students|
+  #    students.sort { |a,b| a<=>b} 
+  #  end 
+  #end 
+  
   def sort 
     @roster.collect do |grade,students|
       students.sort { |a,b| a<=>b} 
