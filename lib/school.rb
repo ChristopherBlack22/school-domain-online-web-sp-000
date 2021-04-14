@@ -29,7 +29,7 @@ class School
   
   def sort 
     sorted_roster = {}
-    @roster.collect do |grade,students|
+    @roster.each do |grade,students|
       sorted_roster[grade] = (students.sort {|a,b| a<=>b})
     end
     sorted_roster
